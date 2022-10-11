@@ -3,24 +3,70 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>My Page Title</title>
+    <title>Toma's Website</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style>
+        body{
+            background-color: rgb(221, 218, 213);
+            background-image:url(https://images.pexels.com/photos/1549093/pexels-photo-1549093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        h1{
+            width: 600px;
+            font-size: 39px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(8, 8, 87);
+        }
+        h4{
+            width: 600px;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(8, 8, 87);
+
+        }
+        p{
+            width: 200px;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgba(161, 64, 12);
+        }
+        #gallery-container{
+            display: inline-block;
+            font-size: 0;
+        }
+        .image-container{
+            display: inline-block;
+            vertical-align: top;
+        }
+        #special-word{
+            color: rgb(161, 64, 12);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>This is my title</h1>
-    <p>Space for some text</p>
-    <div>
-        <div>
-            <img src="images/puppy.jpg" alt="puppy looking at you" />
+    <h1>Page Full of <span id="special-word">Cute</span> Puppies</h1>
+    <h4>Cute Puppies</h4>
+    <div id="gallery-container">
+      
+        <div class="image-container">
+            <img src="images/pexels-kimmo-vainio-13590586 (1).jpg" alt="a little cute puppy" />
+            <p>A little cute labrador puppy.</p>
+        </div>
+     
+        <div class="image-container">
+            <img src="images/puppywink.jpg" alt="a little puppy winking" />
+            <p>A little black puppy sitting on the floor and winking.</p>
         </div>
 
-        <div>
-            <img src="images/puppywink.jpg" alt="little puppy winking" />
-        </div>
-
-        <div>
-            <img src="images/catwinking.jpg" alt="cat winking" />
+        <div class="image-container">
+            <img src="images/pexels-andrew-kota-3791641 (1).jpg" alt="huski puppy" />
+            <p>A cute huski puppy walking on the snow.</p>
         </div>
 
     </div>
